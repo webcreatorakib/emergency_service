@@ -24,28 +24,41 @@
                 </a>
             </div>
             <div class="navbar-end sm:hidden">
-                <i class="fa-solid text-2xl font-bold fa-bars"></i>
-                <div class="hidden">
+                <i id="bar" class="fa-solid text-2xl font-bold fa-bars"></i>
+                <div id="cross" class="hidden">
                     <i class="fa-regular text-2xl font-bold fa-circle-xmark"></i>
                 </div>
             </div>
-            <div class="navbar-end top-22 sm:top-0 w-full sm:w-1/2 absolute sm:relative">
-                <div class="w-1/2 sm:w-auto mx-auto sm:me-0">
-                    <a class="btn mb-5 sm:mb-0 w-full sm:w-auto rounded-full  bg-[#eaffee] outline-none border-none text-base me-3"><span>0</span><i
+            <div id="navItem"
+                class="navbar-end hidden sm:!inline-flex top-22 sm:top-0 w-full sm:w-1/2 absolute sm:relative">
+                <div class="w-1/2 sm:w-auto mx-auto sm:me-0 bg-white p-5 rounded">
+                    <a
+                        class="btn mb-5 sm:mb-0 w-full sm:w-auto rounded-full  bg-[#eaffee] outline-none border-none text-base me-3"><span>0</span><i
                             class="fa-regular fa-heart text-xl"></i></a>
-                    <a class="btn mb-5 sm:mb-0 w-full sm:w-auto rounded-full text-base outline-none border-none bg-[#eaffee] me-3"><span>100</span><img
+                    <a
+                        class="btn mb-5 sm:mb-0 w-full sm:w-auto rounded-full text-base outline-none border-none bg-[#eaffee] me-3"><span>100</span><img
                             class="w-6 h-6" src="assets/img/coin.png"></a>
-                    <a class="btn w-full sm:w-auto  rounded-full bg-[#eaffee] outline-none border-none text-base"><span>0</span>Copy</a>
+                    <a
+                        class="btn w-full sm:w-auto  rounded-full bg-[#eaffee] outline-none border-none text-base"><span>0</span>Copy</a>
                 </div>
             </div>
         </div>
     </header>
     <main>
-
+        <!-- banner section -->
+        <section class="container mx-auto bg-linear-to-r from-[#014C35] via-[#006747] to-[#014C35]  p-8 text-white">
+            <div class="flex flex-col justify-center items-center">
+                <img class="w-32" src="assets/img/bangladesh-govt-logo 1.png">
+                <h2 class="text-4xl font-bold my-4">Emergency Service Directory</h2>
+                <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+                    Bangladesh</p>
+            </div>
+        </section>
     </main>
     <footer>
 
     </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
